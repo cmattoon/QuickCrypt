@@ -268,9 +268,6 @@ class QuickCrypt {
     /**
      * This method generates a plaintext password of $length chars from $keyspace.
      * Useful for generating random passwords for password resets, etc. 
-     * Regrettably, there is no method to the madness that is the derivation of $idx.
-     * I was mostly just playing with the output of getRandomBytes(). 
-     * It seems to be "good enough". YMMV.
      *
      * If using chars like <>'" be careful to print the output with htmlentities()
      * 
